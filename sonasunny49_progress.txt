@@ -1,0 +1,5 @@
+day 1: 06-02-2025
+
+learn: Understood how to initialize git, local repository and remote repository connectivity. Make basic html file and css to start.
+implement: user interface creation
+challenges: difficulty setting up directory due to small corrections in syntax.
