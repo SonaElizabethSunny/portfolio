@@ -1,5 +1,16 @@
-day 1: 06-02-2025
+day 1: 05-02-2025
 
-learn: Understood how to initialize git, local repository and remote repository connectivity. Make basic html file and css to start.
+learn: Understood how to initialize git, local repository and remote repository connectivity. Make basic html file and css to start.yes
+
 implement: user interface creation
 challenges: difficulty setting up directory due to small corrections in syntax.
+
+Day 2: 06-02-2025
+Learn: Explored Git branching and merging, practiced commit handling, and improved understanding of CSS layout techniques.  
+Implement:Enhanced portfolio styling and added responsiveness.  
+Challenges:Faced issues with CSS media queries and struggled with Git merge conflicts.  
+
+Day 3: 07-02-2025
+Learn:Gained insights into flexbox and grid for better layout structuring, and learned about GitHub pull requests and collaboration.  
+Implement:Optimized portfolio design using flexbox and grid, and practiced pushing changes efficiently.  
+Challenges:Encountered issues aligning elements properly and resolving Git conflicts when collaborating.  

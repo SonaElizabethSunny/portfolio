@@ -1,24 +1,27 @@
+/* Global Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
-    color: #7c4242;
+    color: #333;
 }
 
+/* Header */
 header {
     background-color: #333;
     color: #fff;
-    padding: 1rem 0;
+    padding: 1.2rem 0;
+    text-align: center;
 }
 
 header nav .logo h1 {
-    text-align: center;
     font-size: 2rem;
 }
 
@@ -26,6 +29,7 @@ header nav .nav-links {
     display: flex;
     justify-content: center;
     list-style: none;
+    margin-top: 0.5rem;
 }
 
 header nav .nav-links li {
@@ -36,33 +40,43 @@ header nav .nav-links a {
     color: #20af59;
     text-decoration: none;
     font-size: 1.1rem;
+    font-weight: bold;
+}
+
+header nav .nav-links a:hover {
+    color: #fff;
 }
 
 /* Section styles */
 section {
-    padding: 2rem;
+    padding: 3rem 2rem;
 }
 
 section h2 {
     text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
 }
 
 /* About Section */
 #about {
     background-color: #fff;
+    padding: 2rem 3rem;
+    text-align: center;
 }
 
 #about p {
-    text-align: center;
     font-size: 1.2rem;
+    max-width: 800px;
+    margin: auto;
 }
 
 /* Skills Section */
 #skills .skills {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 1rem;
 }
 
@@ -70,9 +84,14 @@ section h2 {
     text-align: center;
     width: 30%;
     background-color: #fff;
-    padding: 1rem;
+    padding: 1.2rem;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#skills .skill:hover {
+    transform: translateY(-5px);
 }
 
 #skills .skill h3 {
@@ -82,6 +101,7 @@ section h2 {
 
 #skills .skill p {
     font-size: 1rem;
+    color: #555;
 }
 
 /* Projects Section */
@@ -90,7 +110,12 @@ section h2 {
     padding: 1.5rem;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#projects .project:hover {
+    transform: scale(1.02);
 }
 
 #projects .project h3 {
@@ -100,24 +125,45 @@ section h2 {
 
 #projects .project p {
     font-size: 1.2rem;
+    color: #555;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
 }
 
 #contact p {
-    text-align: center;
     font-size: 1.2rem;
+    margin-bottom: 0.5rem;
 }
 
+#contact a {
+    color: #20af59;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #333;
+}
+
+/* Footer */
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1rem;
+    margin-top: 2rem;
 }
 
-
+/* Responsive Design */
 @media (max-width: 768px) {
     header nav .nav-links {
         flex-direction: column;
+        align-items: center;
     }
 
     #skills .skills {
